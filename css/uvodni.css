@@ -17,3 +17,23 @@ main{
     width: 1200px;
     margin: 20px auto;
 }
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container div{
+    background-color: rgba(146, 137, 137, 0.637);
+    padding: 20px;
+    flex: 28%;
+    margin: 10px;
+    border: black solid 2px;
+}
+
+@media screen and (max-width: 1180px) {
+    main {
+        width: 90%;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+}
