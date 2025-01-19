@@ -15,17 +15,22 @@
     </header>
     <main>
         <h3 id="soubory-a-adresare">Soubory a adresáře</h3>
-        <p> <strong>Soubor</strong> (<em>file</em>) je množina souvisejících dat uložených na diskové jed
-            notce. Název souboru je obvykle tvořen jménem (ve Windows až 254&nbsp;
-            znaků) a příponou, která naznačuje typ souboru. K dalším vlastnos
-            tem souboru patří jeho velikost, autor (vlastník), datum vytvoření, da
-            tum změny, atributy, přístupová práva apod.
-        </p>
-        <p>K přehlednější práci se soubory slouží systém adresářů či složek (di
-            rectories, folders). Adresáře tvoří na disku typicky hierarchickou struk
-            turu (tree - strom); základem je tzv. kořenový adresář (root) označený 
-            symbolem <mark><code>/</code></mark> (Unix, Linux), nebo „\“ (Windows). Každý adresář může 
-            obsahovat soubory i podadresáře (subdirectories). </p>
+           <p>Soubor(file) je množina souvisejících dat uložených na diskové jednotce.
+             Název souboru je obvykle tvořen jménem (ve Windows až 254&nbsp;
+             znaků) a příponou, která naznačuje typ souboru. K dalším vlastnostem
+             souboru patří jeho velikost, autor (vlastník), datum vytvoření, datum 
+             změny, atributy, přístupová práva apod.</p> 
+        <p>K přehlednější práci se soubory slouží systém adresářů či složek 
+            (directories, folders). Adresáře tvoří na disku typicky hierarchickou strukturu
+            (tree - strom); základem je tzv. kořenový adresář (root) označený 
+            symbolem / (<a href="https://cs.wikipedia.org/wiki/UNIX">Unix </a>, <a href="https://cs.wikipedia.org/wiki/Linux">Linux</a>), 
+            nebo „\“ (<a href="https://cs.wikipedia.org/wiki/Microsoft_Windows">Windows</a>). 
+            Každý adresář může obsahovat soubory i podadresáře (subdirectories).</p>
+
+            <figure style="text-align: center;">
+                <img src="../img/directories-folders.png" alt="Instalace" style="width: 400px; height: auto;">
+                <figcaption style="font-size: 14px; margin-top: 10px;"><i>Adresáře</i></figcaption>
+            </figure>
             <p>&nbsp;</p><h3>Cesta</h3>
             <p>Cesta (path) vyjadřuje umístění souboru vždy směrem od nejvyššího 
                 adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe.</code> Pro operace se soubory využíváme někdy 
@@ -51,50 +56,56 @@
                     library - dynamicky linkované knihovny), které mohou být podle potřeby za 
                     běhu (dynamicky) připojeny k jednomu i více programům. </p>
                     <p>&nbsp;</p><h3>Přípona</h3>
-                    <p>Některé soubory s tzv. spustitelnou příponou (např. .exe a .com ve Win
-                        dows, .sh v Linuxu) slouží ke spuštění programu - aktivaci procesu v rámci 
+                    <p>Některé soubory s tzv. spustitelnou příponou (např. .exe a .com ve Windows,
+                        .sh v Linuxu) slouží ke spuštění programu - aktivaci procesu v rámci 
                         operačního systému. Za rezidentní programy (služby, démony) označujeme 
                         ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému 
                         (např. antivirové programy).</p>
                         <p>&nbsp;</p><h3 id="datove-soubory">Datové soubory</h3>
                         <p> Datové soubory obsahují data různého charakteru (číselné, textové, 
                             grafické, zvukové údaje). K jejich zpracování se používají konkrétní 
-                            programy, a proto jsou často přípony těchto datových souborů aso
-                            ciovány (propojeny) s určitou aplikací (např. DOCX s programem MS 
-                            Word, nebo XLSX s programem MS Excel).</p>
+                            programy, a proto jsou často přípony těchto datových souborů asociovány
+                            (propojeny) s určitou aplikací (např. <a href="https://en.wikipedia.org/wiki/Office_Open_XML">DOCX</a>
+                            s programem <a href="https://cs.wikipedia.org/wiki/Microsoft_Word">MS Word</a>, nebo XLSX s programem 
+                            <a href="https://cs.wikipedia.org/wiki/Microsoft_Excel">MS Excel</a>).</p>
                             <h1 id="os">Operační systémy</h1>
-                            <img src="../img/Operating_system_placement-cs.svg.png" alt="OS" style="float: right; margin: 50px 0 100px 80px; width: 300px; height: auto;">
                             <p>&nbsp;</p> <h3 id="os1">Systémové programy</h3>
-                            <p>Programové vybavení (software) je podmínkou využití technického vybavení 
-                                (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro 
+                            <p>Programové vybavení (<a href=" https://cs.wikipedia.org/wiki/Software">software</a>) je podmínkou využití 
+                                technického vybavení 
+                                (<a href=" https://cs.wikipedia.org/wiki/Hardware">hardware</a>). V raných dobách počítačové éry 
+                                byly programy vytvářeny vždy pro 
                                 konkrétní hardware. V&nbsp;okamžiku, kdy počítače začaly být produkovány ve vět
                                 ších sériích, objevila se i potřeba vývoje speciálních systémových programů, 
                                 které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh 
                                 aplikací, tj. programů určených pro konkrétní účely.</p>
                                 <p>&nbsp;</p> <h3 id="os2">Operační systémy</h3>
                                 <p>Základním programovým vybavením počítačů (a jim podobných zaří
-                                    zení) jsou operační systémy (OS - Operation System). Jejich nejdůle
-                                    žitější funkcí je zajištění řízení hardware. To&nbsp;má na starosti jádro sys
-                                    tému, které tvoří subsystémy pro správu procesoru, paměti, diskových 
-                                    médií a dalších zařízení.  Jádro pro své operace vyžaduje instalaci 
+                                    zení) jsou <a href="https://cs.wikipedia.org/wiki/Opera%C4%8Dn%C3%AD_syst%C3%A9m">operační systémy</a> (OS - Operation System). 
+                                    Jejich nejdůležitější funkcí je zajištění řízení hardware.
+                                    To&nbsp;má na starosti jádro systému, které tvoří subsystémy pro správu procesoru,
+                                    paměti, diskových médií a dalších zařízení. Jádro pro své operace vyžaduje instalaci 
                                     ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje 
                                     technické vybavení běžícím procesům.</p>
                                     <p>&nbsp;</p><h3 id="os3">Rozhraní</h3>
-                                    <p> Nezbytnou součástí operačních systémů je aplikační rozhraní (API - 
+                                    <p> Nezbytnou součástí operačních systémů je aplikační rozhraní
+                                        (<a href=" https://cs.wikipedia.org/wiki/API">API </a> - 
                                         Application Programming Interface), které nabízí programátorům 
-                                        prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhra
-                                        ní slouží k ovládání OS a k spouštění aplikací. Zatímco starší OS se 
-                                        ovládaly častěji prostřednictvím příkazového řádku (CLI - Command 
-                                        Line Interface), moderní systémy poskytují grafické uživatelské roz
-                                        hraní (GUI - Graphic User Interface) založené na oknech a grafických 
+                                        prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhraní 
+                                        slouží k ovládání OS a k spouštění aplikací. Zatímco starší OS se 
+                                        ovládaly častěji prostřednictvím příkazového řádku 
+                                        (<a href="https://cs.wikipedia.org/wiki/P%C5%99%C3%ADkazov%C3%BD_%C5%99%C3%A1dek">CLI</a> - Command 
+                                        Line Interface), moderní systémy poskytují grafické uživatelské rozhraní 
+                                        (<a href="https://cs.wikipedia.org/wiki/Grafick%C3%A9_u%C5%BEivatelsk%C3%A9_rozhran%C3%AD">GUI</a>
+                                        - Graphic User Interface) založené na oknech a grafických 
                                         prvcích.</p> 
                                         <div style="max-width: 1500px; margin: 0 auto;"><div style="font-size: small">
                                             Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém 
                                             UNIX, který se od 70. let používal v sálových počítačích i minipočítačích. 
                                             Jeho principy využily i další OS. V 80. letech minulého století si vzájemně 
                                             konkurovaly systémy firmy Microsoft (MS DOS),  instalované na počítačích 
-                                            IBM PC, a firmy Apple (Mac OS), která rozvinula myšlenky vývojářů spo
-                                            lečnosti Xerox a začala jako první používat grafické uživatelské rozhraní. To  
+                                            IBM PC, a firmy Apple (<a href="https://cs.wikipedia.org/wiki/MacOS">Mac OS</a>), 
+                                            která rozvinula myšlenky vývojářů společnosti 
+                                            Xerox a začala jako první používat grafické uživatelské rozhraní. To  
                                             se stalo také základem MS Windows, jenž hrál prim především na přelomu 
                                             tisíciletí. V té době už získával stále větší popularitu volně šiřitelný systém 
                                             Linux, pojmenovaný podle svého tvůrce Linuse Torvaldse a staršího vzoru 
@@ -107,12 +118,12 @@
                                                 pro běžné osobní počítače - desktopy, notebooky, netbooky (např. 
                                                 MS Windows, Linux Ubuntu, OS X), pro mobilní zařízení (Android, Symbian, 
                                                 Windows Phone, iOS) i speciální RTOS (Real-Time Operating System - systé
-                                                my reálného času), které zajišťují provoz „chytrých“ zařízení, jakými jsou robo
-                                                tické kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních 
+                                                my reálného času), které zajišťují provoz „chytrých“ zařízení, jakými jsou robotické
+                                                kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních 
                                                 stanicích nebo jednotky pro řízení různých průmyslových procesů. Zatímco 
                                                 u desktopového systému je možné pozdržet dokončení některých operací a 
-                                                provádět paralelně jiné operace, v případě RTOS je nezbytné provádět opera
-                                                ce bez prodlevy a s vysokou spolehlivostí v reálném čase.</p>
+                                                provádět paralelně jiné operace, v případě RTOS je nezbytné provádět operace
+                                                bez prodlevy a s vysokou spolehlivostí v reálném čase.</p>
                                                 
 
                                                 <h1 id="ovladace-firmware-utility">Ovladače, firmware a utility</h1>
@@ -124,33 +135,39 @@
                                                     nikaci OS s určitým technickým vybavením. Bez potřebného ovladače nemůže 
                                                     zařízení správně fungovat. Standardní ovladače pro běžná zařízení, jakými 
                                                     jsou flash disk, myš, klávesnice nebo digitální fotoaparáty, bývají součástí 
-                                                    moderních OS. Instalaci zařízení ve Windows usnadňuje standard Plug and 
-                                                    Play (PnP - „připoj a hrej“), který zajistí automatickou detekci nově připojené
+                                                    moderních OS. Instalaci zařízení ve Windows usnadňuje standard <a 
+                                                    href="https://cs.wikipedia.org/wiki/Plug-and-play">Plug and Play</a>
+                                                     (PnP - „připoj a hrej“), který zajistí automatickou detekci nově připojené
                                                     ho hardware a případně i automatické vyhledání potřebného ovladače. Není-li 
-                                                    driver nalezen přímo v OS, musí být použit externí instalátor ovladače z dis
-                                                    ku dodaného se zařízením (např. z instalačního CD k tiskárně), nebo stažený 
+                                                    driver nalezen přímo v OS, musí být použit externí instalátor ovladače z disku
+                                                    dodaného se zařízením (např. z instalačního CD k tiskárně), nebo stažený 
                                                     z internetových stránek, nejlépe přímo od výrobce. Nevhodně zvolený ovladač 
                                                     může v krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.</p>
                                                     <p>&nbsp;</p><h3 id="ovl2">Firmware</h3>
                                                 <p> Programové vybavení, které slouží pro řízení nějakého vestavěné
-                                                    ho systému (embedded system). Firmware řídí například kalkulačky, počítačo
-                                                    vé  komponenty (pevný disk, router…), mobilní telefon, digitální fotoaparát atd. 
+                                                    ho systému (embedded system). Firmware řídí například kalkulačky, počítačové
+                                                    komponenty (pevný disk, router…), mobilní telefon, digitální fotoaparát atd. 
                                                     Dříve byla aktualizace firmwaru realizována nahrazením paměťového média 
-                                                    obsahujícího firmware (např. výměna ROM paměti), dnes může být novější ver
-                                                    ze firmware přepsána díky používaným flash pamětem. Základním firmwarem 
-                                                    v počítači je BIOS (Basic Output-Input System), který zajišťuje především start 
+                                                    obsahujícího firmware (např. výměna ROM paměti), dnes může být novější verze 
+                                                    firmware přepsána díky používaným flash pamětem. Základním firmwarem 
+                                                    v počítači je <a href="https://cs.wikipedia.org/wiki/BIOS">BIOS</a> (Basic Output-Input System), který zajišťuje především start 
                                                     počítače a umožňuje konfiguraci základní desky i připojeného hardware.</p>
                                                     <p>&nbsp;</p> <h3 id="ovl3">Utility</h3>
                                                 <p>Jsou menší pomocné programy, které umožňují vykonávat servisní 
                                                     operace potřebné k fungování počítače. Patří k nim komprimační programy, 
                                                     diagnostické a testovací programy, utility pro kontrolu a optimalizaci operační
-                                                    ho systému, různé konverzní (převodní) programy, které umí přehledně zob
-                                                    razit obrázky, převést je z jednoho formátu na jiný atd. Řada utilit je integrální 
-                                                    součástí OS. Příkladem může být Správce úloh ve Windows (Task Manager), 
+                                                    ho systému, různé konverzní (převodní) programy, které umí přehledně zobrazit
+                                                    obrázky, převést je z jednoho formátu na jiný atd. Řada utilit je integrální 
+                                                    součástí OS. Příkladem může být <a href="https://cs.wikipedia.org/wiki/Spr%C3%A1vce_%C3%BAloh">Správce úloh</a> ve Windows (Task Manager), 
                                                     který umožňuje nejen správu spuštěných programů a služeb, ale i sledování 
                                                     využití systémových zdrojů (procesoru, paměti). Dalšími užitečnými utilitami 
                                                     jsou nástroje pro defragmentaci (defrag) nebo kontrolu disku (chkdsk). Některé 
                                                     utility lze spouštět z příkazového řádku (ping, ipconfig apod.).
+                                                    <figure style="text-align: center;">
+                                                        <img src="../img/spravce-uloh.png" alt="Správce úloh" style="width: 380px; height: auto;">
+                                                        <figcaption style="font-size: 14px; margin-top: 5px;"><i>Správce úloh</i></figcaption>
+                                                    </figure>
+                                                    <p>&nbsp;</p>
                                                     <h1 id="aplikacni-software">Aplikační software</h1>
                                                     <div style="text-align: center;"><p>Aplikace jsou uživatelské programy určené pro jeden nebo 
                                                         více specifických účelů. Pro spouštění aplikací
@@ -160,26 +177,32 @@
                                                     <p>&nbsp;</p> <h3 id="sw">Kancelářské balíky</h3>
                                                     <p>Symbolický „balík“ programů obvykle tvoří textový pro
                                                         cesor, tabulkový procesor, nástroj na tvorbu prezentací, databázový systém, 
-                                                        někdy i groupwarové nástroje (systémy organizování času, zajišťování schů
-                                                        zek), grafické editory apod. Vedle komerčních Microsoft Office či Apple iWork 
-                                                        existují také balíky OpenOffice nebo WPS Office, dostupné zdarma a pro řadu 
+                                                        někdy i groupwarové nástroje (systémy organizování času, zajišťování schůzek),
+                                                        grafické editory apod. Vedle komerčních <a href="https://cs.wikipedia.org/wiki/Microsoft_Office">Microsoft Office</a>
+                                                        či <a href="https://cs.wikipedia.org/wiki/IWork">Apple iWork </a>
+                                                        existují také balíky <a href="https://en.wikipedia.org/wiki/OpenOffice.org">OpenOffice</a> 
+                                                        nebo <a href="https://en.wikipedia.org/wiki/WPS_Office">WPS Office</a>, dostupné zdarma a pro řadu 
                                                         platforem.</p>
                                                         <p>&nbsp;</p><h3 id="sw2">Grafické aplikace</h3>
-                                                    <p>Oblast grafiky je velmi široká; grafické programy umožňují 
+                                                     <p>Oblast grafiky je velmi široká; grafické programy umožňují 
                                                         vytvoření grafických dokumentů přímo v počítači, skenování papírových před
                                                         loh i zachycení obrazu digitálním fotoaparátem. Dominantní postavení v této 
                                                         oblasti zaujímá profesionální software firmy Adobe (např. Adobe Photoshop, 
-                                                        Adobe Illustrator aj.). Mezi oblíbené multiplatformní opensource grafické ap
-                                                        likace patří např. rastrový editor GIMP nebo vektorový Inkscape. Svébytné 
-                                                        oblasti počítačové grafiky tvoří programy pro tvorbu animací, rozsáhlé kon
-                                                        strukční systémy CAD (Computer Aided Design) nebo programy DTP (Desktop 
+                                                        Adobe Illustrator aj.). Mezi oblíbené multiplatformní opensource grafické aplikace
+                                                        patří např. rastrový editor GIMP nebo vektorový Inkscape. Svébytné 
+                                                        oblasti počítačové grafiky tvoří programy pro tvorbu animací, rozsáhlé konstrukční
+                                                        systémy CAD (Computer Aided Design) nebo programy DTP (Desktop 
                                                         Publishing) určené pro tvorbu tiskovin.
+                                                        <figure style="text-align: center;">
+                                                            <img src="../img/Adobe-Photoshop.webp" alt="Adobe Photoshop" style="width: 800px; height: auto;">
+                                                            <figcaption style="font-size: 14px; margin-top: 10px;"><i>Adobe Photoshop</i></figcaption>
+                                                        </figure>                                               
                                                         <p>&nbsp;</p> <h3 id="sw3">Multimediální programy</h3>
-                                                    <p>Umožňují vytváření, zpracování a prezentaci mul
-                                                        timediálních, tedy především audiovizuálních dat na počítači. Kromě nejrůz
-                                                        nějších multimediálních přehrávačů zde můžeme zařadit řadu programů pro 
-                                                        editaci digitálního zvuku nebo videa, programy pro tvorbu multimediálních pre
-                                                        zentací, výukové programy, ale také rozsáhlou oblast počítačových her. </p>
+                                                        <p>Umožňují vytváření, zpracování a prezentaci mul
+                                                        timediálních, tedy především audiovizuálních dat na počítači. Kromě nejrůznějších
+                                                        multimediálních přehrávačů zde můžeme zařadit řadu programů pro 
+                                                        editaci digitálního zvuku nebo videa, programy pro tvorbu multimediálních prezentací,
+                                                         výukové programy, ale také rozsáhlou oblast počítačových her.</p>
                                                         <p>&nbsp;</p> <h3 id="sw4">Programy pro komunikaci v počítačové síti</h3>
                                                         <p>Slouží pro správu počítačo
                                                             vých sítí, vzdálené řízení počítače, přenos a přístup ke vzdáleným souborům a 
@@ -194,49 +217,53 @@
                                                                 Základem IS jsou obvykle tzv. datové sklady (data warehouse) založené na 
                                                                 databázových systémech. Podnikové informační systémy bývají označovány 
                                                                 zkratkou ERP (Enterprise Resource Planning) a jsou tvořeny celou řadou díl
-                                                                čích programových modulů (např. moduly pro výrobu, logistiku, správu ma
-                                                                jetku, účetnictví ...) K lídrům v oblasti informačních i databázových systémů 
-                                                                patří velké firmy jako Oracle, Microsoft, IBM, SAP. Kromě komplexních IS jsou 
-                                                                vyvíjeny mnohé specializované aplikace pro podporu výrobních procesů, eko
-                                                                nomických transakcí a nejrůznějších jiných pracovních činností.</p>
+                                                                čích programových modulů (např. moduly pro výrobu, logistiku, správu majetku, 
+                                                                účetnictví ...) K lídrům v oblasti informačních i databázových systémů 
+                                                                patří velké firmy jako <a href="https://cs.wikipedia.org/wiki/Oracle_Corporation">Oracle</a>,
+                                                                <a href="https://cs.wikipedia.org/wiki/Microsoft">Microsoft</a>, <a href="https://cs.wikipedia.org/wiki/IBM">IBM</a>,
+                                                                <a href="https://cs.wikipedia.org/wiki/SAP">SAP</a>. Kromě komplexních IS jsou 
+                                                                vyvíjeny mnohé specializované aplikace pro podporu výrobních procesů, ekonomických
+                                                                transakcí a nejrůznějších jiných pracovních činností.</p>
                                                                 <p>&nbsp;</p> <h3 id="sw6">Malware a antivirové programy</h3>
                                                                 <p>Zatímco malware je počítačový program 
                                                                     určený ke vniknutí nebo poškození počítačového systému, cílem antivirových 
-                                                                    programů (např. AVG, AVAST, ESET, Kaspersky Antivirus atd.) je chránit počí
-                                                                    tačové systémy před tímto nežádoucím softwarem.</p>
+                                                                    programů (např. AVG, AVAST, ESET, Kaspersky Antivirus atd.) je chránit počítačové
+                                                                     systémy před tímto nežádoucím softwarem.</p>
                                                                     <p>&nbsp;</p><h3 id="sw7">Integrovaná vývojová prostředí</h3>
                                                                     <p> Obvykle jsou označována zkratkou IDE (In
-                                                                        tegrated Development Environment) a používají je programátoři k vývoji aplika
-                                                                        cí. Tradičně je tvoří editor s různými pomůckami pro psaní programového kódu, 
+                                                                        tegrated Development Environment) a používají je programátoři k vývoji aplikací.
+                                                                         Tradičně je tvoří editor s různými pomůckami pro psaní programového kódu, 
                                                                         ladicí prostředky, překladače a další nástroje zefektivňující práci vývojářů.</p>
                                                                         <h1 id="pgr">Instalace programů</h1>
                                                                          <p>&nbsp;</p><h3 id="pgr1">Instalace programu</h3>
-                                                                        <p>Program, který si koupíme, dostaneme na CD/DVD dis
-                                                                            ku, nebo si ho stáhneme z Internetu. Po vložení instalačního CD/DVD disku se 
-                                                                            většinou okamžitě spustí instalační program (díky souboru autorun.inf), v pří
-                                                                            padě softwaru staženého z Internetu musíme instalační program spustit sami 
-                                                                            (ve Windows nejčastěji poklepáním na soubory install.exe či setup.exe). Prů
-                                                                            vodce instalací (wizzard) si často vyžádá sériové číslo a souhlas s licenčními 
+                                                                        <p>Program, který si koupíme, dostaneme na <a href="https://cs.wikipedia.org/wiki/Kompaktn%C3%AD_disk">CD</a>
+                                                                            /<a href="https://cs.wikipedia.org/wiki/DVD">DVD</a> disku, nebo si ho stáhneme
+                                                                            z Internetu. Po vložení instalačního CD/DVD disku se 
+                                                                            většinou okamžitě spustí instalační program (díky souboru autorun.inf), v případě
+                                                                            softwaru staženého z Internetu musíme instalační program spustit sami 
+                                                                            (ve Windows nejčastěji poklepáním na soubory install.exe či setup.exe). Průvodce 
+                                                                            instalací (wizzard) si často vyžádá sériové číslo a souhlas s licenčními 
                                                                             podmínkami, zeptá se, kam (do jaké složky na disku) se má program uložit a 
                                                                             kam se má umístit zástupce programu, případně žádá další informace. Potom 
                                                                             instalační program nahraje všechny soubory, ze kterých se program skládá, na 
-                                                                            pevný disk počítače, provede nutnou konfiguraci (v systémovém registru Win
-                                                                            dows, konfiguračních souborech) a nakonec vytvoří zástupce programu pro 
-                                                                            jeho snadné spuštění. K instalaci většiny programů je nutné mít práva správce.</p><figure style="text-align: center;">
-                                                                            <img src="../img/instalace7.jpg" alt="OS" style="width: 400px; height: auto;">
+                                                                            pevný disk počítače, provede nutnou konfiguraci (v systémovém registru Windows,
+                                                                            konfiguračních souborech) a nakonec vytvoří zástupce programu pro 
+                                                                            jeho snadné spuštění. K instalaci většiny programů je nutné mít práva správce.</p>
+                                                                            <figure style="text-align: center;">
+                                                                            <img src="../img/instalace.jpg" alt="Instalace" style="width: 400px; height: auto;">
                                                                             <figcaption style="font-size: 14px; margin-top: 10px;"><i>Instalace</i></figcaption>
                                                                             </figure>
                                                                             <p>&nbsp;</p><h3 id="pgr2"> Odinstalace programu</h3>
                                                                             <p>Úplné odebrání programu bývá paradoxně často 
                                                                                 složitější, zvláště v systémech Windows. Při instalaci si program nahraje své 
                                                                                 komponenty do mnoha složek včetně systémových, sdílí některé soubory s 
-                                                                                jinými programy (dynamické knihovny DLL), vytvoří záznamy v tzv. registru, 
+                                                                                jinými programy (dynamické knihovny <a href="https://cs.wikipedia.org/wiki/DLL">DLL</a>), vytvoří záznamy v tzv. registru, 
                                                                                 při svém běhu vytváří pomocné soubory. Program, zajišťující odinstalování 
                                                                                 aplikace, často neví přesně, kde všude jsou programové soubory uložené a 
                                                                                 všechny je nesmaže. V řadě případů tak dochází k hromadění zbytečných a 
                                                                                 nepoužívaných souborů. Pro jejich odstranění lze používat některé speciální 
-                                                                                utility – např. RegCleaner (program pro čištění registrů). Při podobných ope
-                                                                                racích je však nutné postupovat velmi obezřetně, aby nedošlo k odstranění 
+                                                                                utility – např. RegCleaner (program pro čištění registrů). Při podobných operacích
+                                                                                 je však nutné postupovat velmi obezřetně, aby nedošlo k odstranění 
                                                                                 některé důležité součásti systému nebo používaného programu! V linuxových 
                                                                                 systémech je lépe vyřešeno oddělení systémových a uživatelských souborů, 
                                                                                 úplné odstranění nepotřebného programu je proto pravděpodobnější.</p>
@@ -245,21 +272,21 @@
                                                                                     Většina významných softwarových firem pochází z anglicky mluvících zemí a 
                                                                                     originály programů tedy existují v angličtině. Dnes je však zcela běžné, že tyto 
                                                                                     firmy mají místní zastoupení, která zajišťují prodej programů, ale také je před 
-                                                                                    prodejem lokalizují - převedou do češtiny. Lokalizace je drahá a časově nároč
-                                                                                    ná činnost, protože se musí přeložit nejen volby nabídek a obsah dialogových 
+                                                                                    prodejem lokalizují - převedou do češtiny. Lokalizace je drahá a časově náročná činnost,
+                                                                                    protože se musí přeložit nejen volby nabídek a obsah dialogových 
                                                                                     oken, ale také nápověda k programu a návod k programu (manuál), případně 
                                                                                     vytvořit dělicí slovník pro české dělení slov a český korektor pravopisu.</p>
                                                                                     <p>&nbsp;</p><h3 id="pgr4">Platforma a kompatibilita</h3>
                                                                                     <p> V souvislosti s určitým typem OS i typem proce
-                                                                                        soru používáme pojem platforma - např. Windows, Linux, OS X. Používaný 
-                                                                                        program musí být určen pro operační systém, který je na počítači nainstalo
-                                                                                        ván; pod jiným systémem většinou nepracuje (např. program určený pro MSWindows 
+                                                                                        soru používáme pojem <a href=" https://cs.wikipedia.org/wiki/Platforma_(informatika)">platforma</a> - např. Windows, Linux, OS X. Používaný 
+                                                                                        program musí být určen pro operační systém, který je na počítači 
+                                                                                        nainstalován; pod jiným systémem většinou nepracuje (např. program určený pro MSWindows 
                                                                                         nebude pracovat pod Linuxem a naopak). Mnoho programů, zvláště z oblasti svobodného 
                                                                                         software (free software), má proto verze určené pro 
                                                                                         několik operačních systémů – jsou multiplatformní. Problémy se spuštěním 
-                                                                                        programu však mohou nastat i na jedné platformě v souvislosti s různými ver
-                                                                                        zemi OS i rozdíly mezi 32bitovými a 64bitovými systémy (například nový pro
-                                                                                        gram určený pro MS Windows může spolehlivě fungovat v novějších verzích 
+                                                                                        programu však mohou nastat i na jedné platformě v souvislosti s různými 
+                                                                                        verzemi OS i rozdíly mezi 32bitovými a 64bitovými systémy (například nový 
+                                                                                        program určený pro MS Windows může spolehlivě fungovat v novějších verzích 
                                                                                         Windows, ale nemusí pracovat pod starší verzí stejného OS). Při pořizování 
                                                                                         programu si proto vždy musíme ověřit, zda je kompatibilní (ve funkční shodě) 
                                                                                         s námi používaným operačním systémem. V nových systémech Windows je 
@@ -268,8 +295,9 @@
                                                                                         <p>&nbsp;</p><h3 id="pgr5">Verze programů</h3>
                                                                                         <p> U počítačových programů je důležitá jeho verze, která se 
                                                                                             označuje číslem za názvem programu. Nový program může být například 
-                                                                                            označen jako verze 1.0. Některé dodatečně zjištěné dílčí nedostatky nebo bez
-                                                                                            pečnostní problémy řeší aktualizace programu (dnes nejčastěji přes Internet),  
+                                                                                            označen jako verze 1.0. Některé dodatečně zjištěné dílčí nedostatky nebo 
+                                                                                            bezpečnostní problémy řeší <a href="https://cs.wikipedia.org/wiki/Aktualizace_(software)">aktualizace</a> 
+                                                                                            programu (dnes nejčastěji přes Internet),  
                                                                                             update. Aktualizace jsou zakázníkům, kteří si zakoupili určitou verzi programu, 
                                                                                             obvykle poskytovány bezplatně. Pro přehlednost jsou označovány buď datem 
                                                                                             vydání, nebo symbolickým číselným vyjádřením podverze – např. 1.1 nebo 

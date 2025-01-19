@@ -37,3 +37,7 @@ main{
         flex-direction: column;
     }
 }
+
+li{
+    font-size: 18px;
+}

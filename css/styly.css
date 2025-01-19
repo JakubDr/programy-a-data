@@ -29,11 +29,11 @@ header a:hover, footer a:hover {
 
 h3 {
     margin: auto;
-    max-width: 1500px   ;
+    max-width: 1500px;
 }
 li{
     margin: auto;
-    max-width: 1500px
+    max-width: 1500px;
 }
 ul, i, span, p {
     margin: auto;
@@ -56,4 +56,8 @@ p {
 
 ul {
     padding-left: 20px;
+}
+a {
+    color: rgb(233, 56, 56);
+    text-decoration: none;
 }
